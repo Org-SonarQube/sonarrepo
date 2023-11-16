@@ -1,5 +1,5 @@
 var serialize = require('node-serialize');
-var app = express();
+// var app = express();
 app.use(cookieParser())
 
 app.get('/', function (req, res) {
