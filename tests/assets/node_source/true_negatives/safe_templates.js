@@ -1,4 +1,4 @@
-function name() {
+/* function name() {
     var x = '<h1>hell0</h1>'
     var y = new Handlebars.escapeExpression(x);
     return new Handlebars.escapeExpression('<img src="" onload=alert(0)>');
@@ -17,4 +17,4 @@ var template = "This is {{target}}";
 var target = "user's pictures";
 var result = Handlerbars.compile(template, { noEscape: false })({ target: target });
 
-Sqrl.autoEscaping(true)
+Sqrl.autoEscaping(true) */
