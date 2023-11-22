@@ -1,4 +1,4 @@
-var express = require('express');
+/* var express = require('express');
 var app = express();
 app.get('/', function (req, res) {
     // ruleid:eval_nodejs
@@ -16,4 +16,4 @@ app.listen(8000);
 eval("outside_express" + req.foo)
 setTimeout('alert(' + req.body.name, 0);
 setInterval(req.body.name, 0);
-new Function('arg1', 'arg2', req.query.name)
+new Function('arg1', 'arg2', req.query.name) */
