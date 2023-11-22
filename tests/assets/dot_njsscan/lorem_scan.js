@@ -1,4 +1,4 @@
-import { LoremIpsum } from "lorem-ipsum";
+/* import { LoremIpsum } from "lorem-ipsum";
 // const LoremIpsum = require("lorem-ipsum").LoremIpsum;
 
 const lorem = new LoremIpsum({
@@ -53,3 +53,4 @@ app.get('/some/path', function (req, res) {
 
 app.listen(8888);
 
+*/
