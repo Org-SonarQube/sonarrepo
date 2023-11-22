@@ -11,7 +11,7 @@ var app = express();
 app.get('/', function (req, res) {
     // ruleid:generic_path_traversal
    // var filePath = path.join(__dirname, '/' + req.query.load);
-    var readStream = fileSystem.createReadStream(filePath);
+   // var readStream = fileSystem.createReadStream(filePath);
     // ruleid:generic_path_traversal
     fileSystem.readFile(req.query.foo);
     // ruleid:generic_path_traversal
