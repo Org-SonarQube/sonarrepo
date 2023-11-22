@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 app.get('/', function (req, res) {
     // ruleid:eval_nodejs
-    var resp = eval("(" + req.query.name + ")");
+/*    var resp = eval("(" + req.query.name + ")"); */
     // ruleid:eval_nodejs
     var z = new Function('arg1', 'arg2', req.query.name)
     z(1, 2);
