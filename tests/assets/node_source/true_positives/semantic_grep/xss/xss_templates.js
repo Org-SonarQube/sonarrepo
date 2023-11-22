@@ -1,4 +1,4 @@
-function name() {
+/* function name() {
     var x = '<h1>hell0</h1>'
     // ruleid:handlebars_safestring
     var y = new Handlebars.SafeString(x);
@@ -23,3 +23,4 @@ var target = "user's pictures";
 var result = Handlerbars.compile(template, { noEscape: true })({ target: target });
 // ruleid:squirrelly_autoescape
 Sqrl.autoEscaping(false)
+*/
