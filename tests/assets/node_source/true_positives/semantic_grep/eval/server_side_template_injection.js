@@ -39,8 +39,9 @@ app.get('/', function (req, res) {
         var html = template(data);
         console.log(html)
     });
-    */
+ 
 
     //do not match
     var template = handlebars.compile(source);
 });
+   */
