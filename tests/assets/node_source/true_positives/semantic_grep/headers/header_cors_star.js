@@ -13,7 +13,7 @@ app.get('/', function (req, res) {
     var y = 1;
     var x = '*';
     // ruleid:express_cors
-    res.writeHead(200, { 'Access-Control-Allow-Origin': '*' });
+   
     // ruleid:express_cors
     res.set('access-control-allow-origin', '*');
     //do not match - sgrep bug -rewrite-rule
