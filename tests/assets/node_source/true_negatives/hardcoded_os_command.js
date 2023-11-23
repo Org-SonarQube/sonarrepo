@@ -49,7 +49,7 @@ require('child_process').exec('info=progress2 "/src" "/dest"');
 const router = require('express').Router();
 const exe = require('child_process');
 
-router.post('/', function (req, res) {
+/* router.post('/', function (req, res) {
     exe.exec('ls ', function (err, data) {
         if (!err) {
             res.json({ message: data });
@@ -57,7 +57,7 @@ router.post('/', function (req, res) {
             res.status(500).json({ message: err });
         }
     });
-});
+}); */
 
 module.exports = router;
 
