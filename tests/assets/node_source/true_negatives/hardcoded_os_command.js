@@ -1,3 +1,4 @@
+/*
 var child_process = require('child_process');
 var x = 1;
 app.get('/', function (req, res) {
@@ -50,14 +51,6 @@ const router = require('express').Router();
 const exe = require('child_process');
 
 
-
-module.exports = router;
-
-
-var http = require("http");
-var url = require("url");
-var exe = require('child_process');
-http.createServer(function (request, response) {
     var parsedUrl = url.parse(request.url, true);
     exe.exec('ping -c 2  google.com', function (err, data) {
         response.end();
@@ -68,3 +61,4 @@ http.createServer(function (request, response) {
 exe.exec('ping -c 2  google.com', function (err, data) {
     response.end();
 });
+*/
