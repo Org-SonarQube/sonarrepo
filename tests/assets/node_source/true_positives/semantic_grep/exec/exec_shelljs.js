@@ -1,4 +1,4 @@
-const shell = require('shelljs');
+/* const shell = require('shelljs');
 const express = require('express')
 const router = express.Router()
 
@@ -12,3 +12,4 @@ router.get('/foo', (req, res) => {
     const input = `ls ${req.query}`
     return shell.exec(input, { silent: true })
 })
+*/
