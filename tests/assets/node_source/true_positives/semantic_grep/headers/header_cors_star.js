@@ -27,7 +27,6 @@ app.get('/', function (req, res) {
         'ETag': '12345'
     })
     // ruleid:express_cors
-    res.writeHead(200, { 'Access-Control-Allow-Origin': '*' })
     // ruleid:express_cors
     res.set('access-control-allow-origin', x);
 
