@@ -8,7 +8,7 @@ Promise.promisifyAll(fileSystem);
 
 var express = require('express');
 var app = express();
-app.get('/', function (req, res) {
+/* app.get('/', function (req, res) {
     // ruleid:generic_path_traversal
    // var filePath = path.join(__dirname, '/' + req.query.load);
    // var readStream = fileSystem.createReadStream(filePath);
@@ -21,7 +21,7 @@ app.get('/', function (req, res) {
     fileSystem.readFile(foo);
     fileSystem.readFile(foo + "bar");
     readStream.pipe(res);
-});
+}); */
 
 app.get('/foo', function (req, res) {
     // ruleid:generic_path_traversal
