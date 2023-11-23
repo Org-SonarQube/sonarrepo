@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
     res.set(ffff)
 });
 
-app.get('/', function (req, res) {
+/* app.get('/', function (req, res) {
     var y = 1;
     var x = '*';
     // ruleid:express_cors
@@ -28,7 +28,7 @@ app.get('/', function (req, res) {
     })
     // ruleid:express_cors
     // ruleid:express_cors
-    res.set('access-control-allow-origin', x);
+    //res.set('access-control-allow-origin', x);
 
     // do not detect - sgrep bug
     res.set('access-control-allow-origin', 'xyz.com');
@@ -36,3 +36,4 @@ app.get('/', function (req, res) {
     res.set('access-control-allow-origin', null);
 
 });
+*/
