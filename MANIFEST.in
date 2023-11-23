@@ -1,3 +1,7 @@
 recursive-include njsscan/rules/pattern_matcher *.yaml
 recursive-include njsscan/rules/semantic_grep *.yaml
 recursive-include njsscan/rules/ *.yaml
+
+recursive-include njsscan/rules/pattern_matcher *.yaml
+recursive-include njsscan/rules/semantic_grep *.yaml
+recursive-include njsscan/rules/ *.yaml
