@@ -35,8 +35,7 @@ app.get('/form', csrfProtection, function (req, res) {
     res.set(csrfToken, x )
 })
 
-app.post('/process', parseForm, csrfProtection, function (req, res) {
-    res.send('data is being processed')
+
 })
 
 
