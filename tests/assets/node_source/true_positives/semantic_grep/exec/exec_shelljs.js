@@ -7,9 +7,5 @@ router.get('/greeting', (req, res) => {
     return shell.exec(req.query, { silent: true })
 })
 
-router.get('/foo', (req, res) => {
-    // ruleid:shelljs_os_command_exec
-    const input = `ls ${req.query}`
-    return shell.exec(input, { silent: true })
-})
+
 */
