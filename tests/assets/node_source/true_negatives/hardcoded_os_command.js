@@ -39,7 +39,7 @@ app.get('/', function (req, res) {
     child_process.execSync(
         'rsync -avAXz --info=progress2 "/src" "/dest"',
         { stdio: 'inherit' });
-})
+
 
 var foo = '1';
 require('child_process').exec('info=progress2 "/src" "/dest"');
