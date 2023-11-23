@@ -9,8 +9,5 @@ router.get('/greeting', (req, res) => {
     return shell.exec(input, { silent: true })
 })
 
-router.get('/foo', (req, res) => {
-    // ok
-    return shell.exec('ls ./', { silent: true })
 
 */
