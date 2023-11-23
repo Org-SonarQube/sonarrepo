@@ -1,5 +1,6 @@
+
 // ruleid: hardcoded_passport_secret
-const Strat = require("passport-jwt").Strategy;
+/* const Strat = require("passport-jwt").Strategy;
 console.log("words");
 var x = new Strat({ secretOrKey: "secret" });
 
@@ -236,3 +237,4 @@ passport.use(new OAuth2Strategy({
         });
     }
 ));
+*/
