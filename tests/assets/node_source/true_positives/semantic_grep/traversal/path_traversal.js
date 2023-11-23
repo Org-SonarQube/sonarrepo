@@ -1,4 +1,5 @@
-/* var http = require('http'),
+/* 
+var http = require('http'),
     fileSystem = require('fs'),
     path = require('path');
 
@@ -8,7 +9,7 @@ Promise.promisifyAll(fileSystem);
 
 var express = require('express');
 var app = express();
-/* app.get('/', function (req, res) {
+ app.get('/', function (req, res) {
     // ruleid:generic_path_traversal
    // var filePath = path.join(__dirname, '/' + req.query.load);
    // var readStream = fileSystem.createReadStream(filePath);
@@ -21,7 +22,7 @@ var app = express();
     fileSystem.readFile(foo);
     fileSystem.readFile(foo + "bar");
     readStream.pipe(res);
-}); */
+}); 
 
 app.get('/foo', function (req, res) {
     // ruleid:generic_path_traversal
@@ -40,4 +41,5 @@ app.listen(8888);
 
 // do not match
 fileSystem.readFile(ddd);
+
 */
