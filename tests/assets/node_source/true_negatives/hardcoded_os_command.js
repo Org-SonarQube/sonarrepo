@@ -39,7 +39,6 @@ app.get('/', function (req, res) {
     child_process.execSync(
         'rsync -avAXz --info=progress2 "/src" "/dest"',
         { stdio: 'inherit' });
-
     res.send('Hello World!')
 })
 
