@@ -97,12 +97,7 @@ def main():
                 __version__,
                 'unsafehtml')
         else:
-            cli.cli_output(
-                args.output,
-                scan_results,
-                __version__,
-                'fancy_grid')
-        handle_exit(scan_results, args.exit_warning)
+           
 
     elif args.version:
         cli.print_tool_info(__version__)
