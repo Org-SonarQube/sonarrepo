@@ -87,7 +87,7 @@ def main():
                 __version__)
         elif args.sarif:
             sarif.sarif_output(
-                args.output,
+               
                 scan_results,
                 __version__)
         elif args.html:
