@@ -11,3 +11,4 @@ WORKDIR /usr/src/njsscan
 RUN pip install -e .
 
 ENTRYPOINT ["njsscan"]
+ENTRYPOINT ["njsscan"]
