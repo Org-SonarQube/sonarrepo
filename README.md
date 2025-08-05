@@ -1,4 +1,4 @@
-# njsscan 
+# njsscan # njsscan 
 # njsscan 
 **njsscan** is a static application testing (SAST) tool that can find insecure code patterns in your node.js applications using simple pattern matcher from [libsast](https://github.com/ajinabraham/libsast) and syntax-aware semantic code pattern search tool [semgrep](https://github.com/returntocorp/semgrep).
 
